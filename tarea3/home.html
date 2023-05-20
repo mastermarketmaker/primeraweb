@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listado de Elementos</title>
+  <link rel="stylesheet" type="text/css" href="home.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+  <script src="sliderhome.js"></script>
+  
+</head>
+<body>
+
+<div class="contenedor"> 
+
+  <header>
+    <div class="imagen-logo" style="font-size: large;">   
+      
+      <nav>
+       <ul style="margin-right: 20%; font-size: large;">
+        <li><a href="elementos.html">cursos de desarollo personal</a></li>
+        <li><a href="contacto.html">contacto</a></li>
+        <li><a href="testimonios.html">testimonios</a></li>
+        <li><a href="quienesomos.html">nuestros coaches</a></li>
+        <li><a href="aulavirtual.html">acceso alumnos</a></li>
+       </ul>
+      </nav> 
+      
+    <div class="logotipo">
+
+      <div class="logo-container">
+        <a id="logo" href="home.html">
+          <img src="logo2.png" alt="Logo de mi sitio">
+        </a>
+
+      </div>
+     
+
+    </div>
+      
+    </div>
+    
+
+  </header> 
+  <div class="testimonios">
+    <div class="slider">
+      <div class="slide active">
+        <img src="seminario4.jpg" alt="cueva">
+
+      </div>
+      <div class="slide">
+        <img src="seminario1.jpg" alt="Testimonio 2">
+        
+
+      
+      </div>
+      <div class="slide">
+        <img src="seminario5.jpg" alt="Testimonio 3">
+        
+
+       
+      </div>
+      <a class="prev">&#10094;</a>
+      <a class="next">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+
+  
+  <main style="margin-top: 10%;">
+    
+    <div class="contenedor-imagenes">
+        <img src="download.jpg" alt="Imagen 1"style="width: 25%; height: 25%; padding-right: 5%">
+        <img src="millonario.jpg" alt="Imagen 2"style="width: 25%; height: 25%; padding-right: 5%">
+        <img src="fitness.jpg.jpg" alt="Imagen 3" style="width: 25%; height: 25%; padding-right: 3%;">
+    </div>
+    <div class="contenedor-parrafos">
+      <div class="parrafo1">
+
+        <p style="align-content: center; width: 100%; padding-left: 30%; font-size: x-large;">
+          ¡Bienvenido al maravilloso mundo del desarrollo personal! El desarrollo personal se trata de crecer y mejorar en todos los aspectos de nuestra vida, desde nuestras habilidades y conocimientos hasta nuestra salud mental y física. Si estás buscando mejorar en cualquier área de tu vida, el desarrollo personal es el camino a seguir.
+        </p>
+
+      </div>
+
+       <div class="parrafo2" style="padding-left: 5%;">
+
+        <p style="width:fit-content; font-size: x-large;">
+          Si estás interesado en el desarrollo personal, estás en el camino correcto para convertirte en la mejor versión de ti mismo. El desarrollo personal se trata de trabajar en uno mismo para alcanzar todo nuestro potencial, lograr nuestros objetivos y vivir una vida plena y satisfactoria.
+        </p>
+
+
+       </div>
+
+       <div class="parrafo3" style="padding-right: 9%;">
+
+        <p style="width:100%;font-size: x-large">
+          El desarrollo personal es un viaje fascinante y transformador que nos permite alcanzar nuestro máximo potencial y vivir una vida plena y satisfactoria. En este camino de autodescubrimiento, exploramos nuestros talentos, habilidades y creencias para crecer y evolucionar como individuos.
+        </p>
+
+
+       </div>
+    </div>
+  
+  </main>
+
+  <footer>
+    <div class="footer-wrapper">
+      <div class="footer-section">
+        <h3>Enlaces útiles</h3>
+        <ul>
+          <li><a href="home.html">Inicio</a></li>
+          <li><a href="elementos.html">descubre nuestros cursos</a></li>
+          <li><a href="contacto.html">visitanos fisicamente</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Redes Sociales</h3>
+        <ul>
+          <li><a href="https://www.facebook.com/luiseduardo.salaspanchano">Facebook</a></li>
+          <li><a href="https://twitter.com/elonmusk">Twitter</a></li>
+          <li><a href="https://www.instagram.com/leomessi/">Instagram</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contáctanos</h3>
+        <p>
+          <a href="https://www.google.com/maps?q=39.702160,3.436060" target="_blank">
+            Carrer des Port 24, 07580 Capdepera, Islas Baleares, España
+          </a>
+        </p>
+        <p>
+          Teléfono: 
+          <a href="tel:+34971819003">+34 971819003</a>
+        </p>
+          Correo: 
+          <a href="mailto:elevate_yourself@gmail.com">elevate_yourself@gmail.com</a>
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2023 Todos los derechos reservados - Ejemplo</p>
+    </div>
+    
+  </footer>
+  
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var footerLinks = document.querySelectorAll(".footer-section ul li a");
+
+  footerLinks.forEach(function(link) {
+    link.addEventListener("mouseover", function() {
+      this.style.color = "red";
+    });
+
+    link.addEventListener("mouseout", function() {
+      this.style.color = "";
+    });
+  });
+});
+</script>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+    var footerTitles = document.querySelectorAll(".footer-section h3");
+
+    footerTitles.forEach(function (title) {
+      title.addEventListener("click", function () {
+        var sectionContent = this.nextElementSibling;
+        var isHidden = sectionContent.style.display === "none";
+
+        if (isHidden) {
+          sectionContent.style.display = "block";
+        } else {
+          sectionContent.style.display = "none";
+        }
+      });
+    });
+    
+
+  });
+</script>
+
+
+
+
+
+ 
+ </body>
+</div>
+</html>
