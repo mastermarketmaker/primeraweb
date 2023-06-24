@@ -4,30 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="../estilos/contacto.css">
+    <link rel="stylesheet" type="text/css" href="../estilos/home.css"/>
     <script src="../javascript/contacto.js"></script>
 </head>
 <body>
-    <header>
-        <div class="imagen-logo">
-            <nav>
-                <ul>
-                    <li><a class="boton" href="elementos.html">Cursos de Desarrollo Personal</a></li>
-                    <li><a class="boton" href="contacto.html">Contacto</a></li>
-                    <li><a class="boton" href="testimonios.html">Testimonios</a></li>
-                    <li><a class="boton" href="quienesomos.html">Nuestros Coaches</a></li>
-                    <li><a class="boton" href="aulavirtual.html">Acceso Alumnos</a></li>
-                </ul>
-            </nav> 
-            <div class="logotipo">
-                <div class="logo-container">
-                    <a id="logo" href="home.html">
-                        <img src="../imagenes/logo2.png" alt="Logo de mi sitio">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </header> 
+    <?php
+    include "header.php"
+    ?>
 
     <section class="container">
         <div class="map">

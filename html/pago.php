@@ -7,23 +7,9 @@
     <link rel="stylesheet" href="../estilos/pago.css" />
   </head>
   <body>
-    <header>
-      <div class="imagen-logo">   
-      
-        <nav>
-         <ul style="margin-right: 20%; font-size: larger;">
-          <li><a href="elementos.html">cursos de desarollo personal</a></li>
-          <li><a href="contacto.html">contacto</a></li>
-          <li><a href="testimonios.html">testimonios</a></li>
-          <li><a href="quienesomos.html">nuestros coaches</a></li>
-          <li><a href="aulavirtual.html">acceso alumnos</a></li>
-         </ul>
-        </nav> 
-        <a id="logo" href="home.html">
-          <img src="../imagenes/logo2.png" alt="Logo de mi sitio">
-        </a>
-      </div>
-    </header>
+  <?php
+include "header.php"
+?>
     <main style="margin-top: 10%;">
       <form id="formulario">
         <div class="grupo">

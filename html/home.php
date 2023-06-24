@@ -1,62 +1,39 @@
+
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Testimonios</title>
-  <link rel="stylesheet" href="../estilos/testimonios.css">
+  <title>Listado de Elementos</title>
+  <link rel="stylesheet" type="text/css" href="../estilos/home.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+  <script src="../javascript/sliderhome.js"></script>
+  
 </head>
 <body>
 
-  <header>
-    <div class="imagen-logo" style="font-size: large;">   
-      
-      <nav>
-       <ul style="margin-right: 20%; font-size: large;">
-        <li><a class="boton" href="elementos.html">cursos de desarollo personal</a></li>
-        <li><a class="boton" href="contacto.html">contacto</a></li>
-        <li><a class="boton" href="testimonios.html">testimonios</a></li>
-        <li><a class="boton" href="quienesomos.html">nuestros coaches</a></li>
-        <li><a class="boton" href="aulavirtual.html">acceso alumnos</a></li>
-       </ul>
-      </nav>
+<div class="contenedor"> 
 
-    <div class="logotipo">
 
-      <div class="logo-container">
-        <a id="logo" href="home.html">
-          <img src="../imagenes/logo2.png" alt="Logo de mi sitio">
-        </a>
-
-      </div>
-     
-
-    </div>
-      
-    </div>
-    
-
-  </header> 
+<?php
+include "header.php"
+?>
+ 
   <div class="testimonios">
     <div class="slider">
       <div class="slide active">
-        <img src="../imagenes/foto213.jpg" alt="Testimonio 1">
-
-        <h2>Antonio Otero ,25 años, Madrid</h2>
-      <p>Estoy muy contento con este curso de desarrollo personal, me ha ayudado a conocerme mejor y a mejorar en muchos aspectos de mi vida. El contenido es muy completo y está explicado de una forma muy clara y amena. Lo recomiendo 100%.</p>
+        <img src="../imagenes/seminario4.jpg" alt="cueva">
 
       </div>
       <div class="slide">
-        <img src="../imagenes/mujer1.jpg" alt="Testimonio 2">
-        <h2>Cristina ,32 años, Madrid.</h2>
-      <p>Este curso de desarrollo personal me ha sorprendido muy gratamente, me ha enseñado muchas técnicas y herramientas útiles para aplicar en mi día a día. Me ha resultado muy práctico y los ejercicios propuestos me han ayudado a entender y mejorar muchos aspectos de mi vida. ¡Muy recomendable!</p>
+        <img src="../imagenes/seminario1.jpg" alt="Testimonio 2">
+        
 
       
       </div>
       <div class="slide">
-        <img src="../imagenes/joven3.jpg" alt="Testimonio 3">
-        <h2>Juan Gil,30 años, Ciudad Real</h2>
-       <p>He realizado varios cursos de desarrollo personal a lo largo de mi vida, pero sin duda este ha sido el mejor de todos. El contenido es muy completo y profundo, y el enfoque práctico es justo lo que estaba buscando. Además, el instructor es un verdadero experto en la materia y se nota que disfruta transmitiendo sus conocimientos. ¡Totalmente recomendado!</p>
+        <img src="../imagenes/seminario5.jpg" alt="Testimonio 3">
+        
 
        
       </div>
@@ -70,7 +47,44 @@
       <span class="dot"></span>
     </div>
   </div>
-  <script src="../javascript/testimonios.js"></script>
+
+  
+  <main style="margin-top: 10%;">
+    
+    <div class="contenedor-imagenes">
+        <img src="../imagenes/cueva.jpg" alt="Imagen 1"style="width: 25%; height: 25%; padding-right: 5%">
+        <img src="../imagenes/millonario.jpg" alt="Imagen 2"style="width: 25%; height: 25%; padding-right: 5%">
+        <img src="../imagenes/fitness.jpg.jpg" alt="Imagen 3" style="width: 25%; height: 25%; padding-right: 3%;">
+    </div>
+    <div class="contenedor-parrafos">
+      <div class="parrafo1">
+
+        <p style="align-content: center; width: 100%; padding-left: 30%; font-size: x-large;">
+          ¡Bienvenido al maravilloso mundo del desarrollo personal! El desarrollo personal se trata de crecer y mejorar en todos los aspectos de nuestra vida, desde nuestras habilidades y conocimientos hasta nuestra salud mental y física. Si estás buscando mejorar en cualquier área de tu vida, el desarrollo personal es el camino a seguir.
+        </p>
+
+      </div>
+
+       <div class="parrafo2" style="padding-left: 5%;">
+
+        <p style="width:fit-content; font-size: x-large;">
+          Si estás interesado en el desarrollo personal, estás en el camino correcto para convertirte en la mejor versión de ti mismo. El desarrollo personal se trata de trabajar en uno mismo para alcanzar todo nuestro potencial, lograr nuestros objetivos y vivir una vida plena y satisfactoria.
+        </p>
+
+
+       </div>
+
+       <div class="parrafo3" style="padding-right: 9%;">
+
+        <p style="width:100%;font-size: x-large">
+          El desarrollo personal es un viaje fascinante y transformador que nos permite alcanzar nuestro máximo potencial y vivir una vida plena y satisfactoria. En este camino de autodescubrimiento, exploramos nuestros talentos, habilidades y creencias para crecer y evolucionar como individuos.
+        </p>
+
+
+       </div>
+    </div>
+  
+  </main>
 
   <footer>
     <div class="footer-wrapper">
@@ -151,5 +165,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 
-</body>
+
+
+
+ 
+ </body>
+</div>
 </html>

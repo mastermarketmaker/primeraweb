@@ -6,34 +6,9 @@
   <link rel="stylesheet" href="../estilos/quienesomos.css">
 </head>
 <body>
-  <header>
-    
-    <div class="imagen-logo" style="font-size: large;">   
-      
-      <nav>
-       <ul style="margin-right: 20%; font-size: large;">
-        <li><a class="boton" href="elementos.html">cursos de desarollo personal</a></li>
-        <li><a class="boton" href="contacto.html">contacto</a></li>
-        <li><a class="boton" href="testimonios.html">testimonios</a></li>
-        <li><a class="boton" href="quienesomos.html">nuestros coaches</a></li>
-        <li><a class="boton" href="aulavirtual.html">acceso alumnos</a></li>
-       </ul>
-      </nav> 
-      
-    <div class="logotipo">
-
-      <div class="logo-container">
-        <a id="logo" href="home.html">
-          <img src="../imagenes/logo2.png" alt="Logo de mi sitio">
-        </a>
-
-      </div>
-     
-
-    </div>
-      
-    </div>
-  </header>
+<?php
+include "header.php"
+?>
   <main>
     <div class="team" style="margin-top: 5%;">
       <div class="member">

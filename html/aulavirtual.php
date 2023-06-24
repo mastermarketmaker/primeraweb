@@ -2,29 +2,12 @@
 <html>
 <head>
 <title>Inicio de sesión</title>
-<link rel="stylesheet" href="../estilos/aulavirtual.css">
+<link rel="stylesheet" type="text/css" href="../estilos/home.css"/>
 </head>
 <body>
-  <header>
-      <div class="imagen-logo">
-          <nav>
-              <ul>
-                  <li><a class="boton" href="elementos.html">cursos de desarrollo personal</a></li>
-                  <li><a class="boton" href="contacto.html">contacto</a></li>
-                  <li><a class="boton" href="testimonios.html">testimonios</a></li>
-                  <li><a class="boton" href="quienesomos.html">nuestros coaches</a></li>
-                  <li><a class="boton" href="aulavirtual.html">acceso alumnos</a></li>
-              </ul>
-          </nav> 
-          <div class="logotipo">
-              <div class="logo-container">
-                  <a id="logo" href="home.html">
-                      <img src="../imagenes/logo2.png" alt="Logo de mi sitio0">
-                  </a>
-              </div>
-          </div>
-      </div>
-  </header> 
+<?php
+include "header.php"
+?>
 
   <div class="container">
       <h2>Inicio de sesión</h2>
