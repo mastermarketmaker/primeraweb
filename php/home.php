@@ -26,7 +26,7 @@
 
       </div>
       <div class="slide">
-        <img src="../imagenes/seminario4.jpg" alt="Testimonio 2">
+        <img src="../imagenes/seminario1.jpg" alt="Testimonio 2">
         
 
       
