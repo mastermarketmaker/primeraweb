@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimonios</title>
+  <link rel="stylesheet" href="../estilos/testimonios.css">
+</head>
+<body>
+
+<?php
+include "header.php"
+?>
+  <div class="testimonios">
+    <div class="slider">
+      <div class="slide active">
+        <img src="../imagenes/foto213.jpg" alt="Testimonio 1">
+
+        <h2>Antonio Otero ,25 años, Madrid</h2>
+      <p>Estoy muy contento con este curso de desarrollo personal, me ha ayudado a conocerme mejor y a mejorar en muchos aspectos de mi vida. El contenido es muy completo y está explicado de una forma muy clara y amena. Lo recomiendo 100%.</p>
+
+      </div>
+      <div class="slide">
+        <img src="../imagenes/mujer1.jpg" alt="Testimonio 2">
+        <h2>Cristina ,32 años, Madrid.</h2>
+      <p>Este curso de desarrollo personal me ha sorprendido muy gratamente, me ha enseñado muchas técnicas y herramientas útiles para aplicar en mi día a día. Me ha resultado muy práctico y los ejercicios propuestos me han ayudado a entender y mejorar muchos aspectos de mi vida. ¡Muy recomendable!</p>
+
+      
+      </div>
+      <div class="slide">
+        <img src="../imagenes/joven3.jpg" alt="Testimonio 3">
+        <h2>Juan Gil,30 años, Ciudad Real</h2>
+       <p>He realizado varios cursos de desarrollo personal a lo largo de mi vida, pero sin duda este ha sido el mejor de todos. El contenido es muy completo y profundo, y el enfoque práctico es justo lo que estaba buscando. Además, el instructor es un verdadero experto en la materia y se nota que disfruta transmitiendo sus conocimientos. ¡Totalmente recomendado!</p>
+
+       
+      </div>
+      <a class="prev">&#10094;</a>
+      <a class="next">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+  <script src="../javascript/testimonios.js"></script>
+
+  <footer>
+    <div class="footer-wrapper">
+      <div class="footer-section">
+        <h3>Enlaces útiles</h3>
+        <ul>
+          <li><a href="home.html">Inicio</a></li>
+          <li><a href="elementos.html">descubre nuestros cursos</a></li>
+          <li><a href="contacto.html">visitanos fisicamente</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Redes Sociales</h3>
+        <ul>
+          <li><a href="https://www.facebook.com/luiseduardo.salaspanchano">Facebook</a></li>
+          <li><a href="https://twitter.com/elonmusk">Twitter</a></li>
+          <li><a href="https://www.instagram.com/leomessi/">Instagram</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contáctanos</h3>
+        <p>
+          <a href="https://www.google.com/maps?q=39.702160,3.436060" target="_blank">
+            Carrer des Port 24, 07580 Capdepera, Islas Baleares, España
+          </a>
+        </p>
+        <p>
+          Teléfono: 
+          <a href="tel:+34971819003">+34 971819003</a>
+        </p>
+          Correo: 
+          <a href="mailto:elevate_yourself@gmail.com">elevate_yourself@gmail.com</a>
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2023 Todos los derechos reservados - Ejemplo</p>
+    </div>
+    
+  </footer>
+  
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var footerLinks = document.querySelectorAll(".footer-section ul li a");
+
+  footerLinks.forEach(function(link) {
+    link.addEventListener("mouseover", function() {
+      this.style.color = "red";
+    });
+
+    link.addEventListener("mouseout", function() {
+      this.style.color = "";
+    });
+  });
+});
+</script>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+    var footerTitles = document.querySelectorAll(".footer-section h3");
+
+    footerTitles.forEach(function (title) {
+      title.addEventListener("click", function () {
+        var sectionContent = this.nextElementSibling;
+        var isHidden = sectionContent.style.display === "none";
+
+        if (isHidden) {
+          sectionContent.style.display = "block";
+        } else {
+          sectionContent.style.display = "none";
+        }
+      });
+    });
+    
+
+  });
+</script>
+
+
+</body>
+</html>

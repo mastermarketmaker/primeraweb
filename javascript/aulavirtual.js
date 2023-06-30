@@ -1,4 +1,4 @@
-  var usuario = {
+var usuario = {
   nombre: 'Antonio Otero',
   email: 'luisuper@hotmail.com',
   usuario: 'antonio',
