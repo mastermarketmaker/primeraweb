@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header{
+    height: 200px;   
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+   
+    }
+    .imagen-logo {
+     position: relative;
+     background-color: black;
+     overflow: hidden;
+   }
+   
+   .imagen-logo img {
+     display: block;
+   }
+   
+   .imagen-logo ul {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     right: 0;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+   }
+   
+   .imagen-logo li {
+     display: inline-block;
+     margin-right: 20px;
+   }
+   
+   .imagen-logo a {
+     color: white;
+     text-decoration: none;
+   }
+   
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .grupo {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="month"] {
+    border: 1px solid #ccc;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus,
+  input[type="month"]:focus {
+    outline: none;
+  }
+  
+  #boton-pago {
+    background-color: #003366;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px 20px;
+  }
+  
+  #boton-pago:hover {
+    background-color: #002244;
+  }
+  

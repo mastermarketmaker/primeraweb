@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.boton:hover{
+  background-color: #484b92;
+}
+
+
+header {
+  height: 200px;
+  margin: 10px;
+}
+
+.imagen-logo {
+  position: relative;
+  background-color: black;
+  overflow: hidden;
+}
+
+.imagen-logo img {
+  display: block;
+}
+
+.imagen-logo ul {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.imagen-logo li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.imagen-logo a {
+  color: white;
+  text-decoration: none;
+}
+
+.imagen-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logotipo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+#logo-container {
+  width: 100px;
+  margin-right: 20px;
+}
+
+#logo {
+  display: block;
+}
+
+#logo img {
+  width: 100%;
+  height: auto;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.member img {
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.member:hover img {
+  transform: scale(1.1);
+}
+
+.member h3, .member p {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-section ul li a:hover {
+  color: #007bff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-section h3 {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.footer-section h3:hover {
+  color: #007bff;
+}
+
+@media (max-width: 768px) {
+  .team .member {
+    width: 45%;
+  }
+}
