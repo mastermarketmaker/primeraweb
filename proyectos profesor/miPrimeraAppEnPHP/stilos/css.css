@@ -1,0 +1,34 @@
+*{
+
+    font-family: arial;
+
+}
+header img{
+    width: 90px;
+}
+
+
+#botoNave{
+
+    width: 100px;
+    border-radius: 15px;
+    color: white;
+    background: blue;
+    text-align: center;
+    cursor: pointer;
+    padding: 25px;
+}
+
+#botoNave:hover{
+    background: aquamarine;
+}
+
+form ul{
+    list-style: none;
+
+}
+
+form li{
+    margin-top: 15px;
+
+}
